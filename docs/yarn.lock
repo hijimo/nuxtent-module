@@ -54,7 +54,7 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@nuxtjs/axios@^4.5.2":
+"@nuxtjs/axios@4.5.2":
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-4.5.2.tgz#9722d1ed07f516b7de25f62e3f21d95a0579d431"
   dependencies:
@@ -397,7 +397,7 @@ aws4@^1.2.1, aws4@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
-axios@^0.17.1:
+axios@0.17.1, axios@^0.17.1:
   version "0.17.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.17.1.tgz#2d8e3e5d0bdbd7327f91bc814f5c57660f81824d"
   dependencies:
@@ -436,7 +436,7 @@ babel-core@^6.26.0:
     slash "^1.0.0"
     source-map "^0.5.6"
 
-babel-eslint@^8.2.1:
+babel-eslint@8.2.1:
   version "8.2.1"
   resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-8.2.1.tgz#136888f3c109edc65376c23ebf494f36a3e03951"
   dependencies:
@@ -2275,11 +2275,11 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-standard@^11.0.0-beta.0:
+eslint-config-standard@11.0.0-beta.0:
   version "11.0.0-beta.0"
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-11.0.0-beta.0.tgz#f8afe69803d95c685a4b8392b8793188eb03cbb3"
 
-eslint-loader@^1.6.1:
+eslint-loader@1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/eslint-loader/-/eslint-loader-1.9.0.tgz#7e1be9feddca328d3dcfaef1ad49d5beffe83a13"
   dependencies:
@@ -2289,17 +2289,17 @@ eslint-loader@^1.6.1:
     object-hash "^1.1.4"
     rimraf "^2.6.1"
 
-eslint-plugin-html@^4.0.1:
+eslint-plugin-html@4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-html/-/eslint-plugin-html-4.0.1.tgz#fc70072263cc938496fbbc9cf648660e41fa269a"
   dependencies:
     htmlparser2 "^3.8.2"
 
-eslint-plugin-promise@^3.4.1:
+eslint-plugin-promise@3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.6.0.tgz#54b7658c8f454813dc2a870aff8152ec4969ba75"
 
-eslint-plugin-standard@^3.0.1:
+eslint-plugin-standard@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-3.0.1.tgz#34d0c915b45edc6f010393c7eef3823b08565cf2"
 
@@ -2314,7 +2314,7 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^4.15.0:
+eslint@4.15.0:
   version "4.15.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.15.0.tgz#89ab38c12713eec3d13afac14e4a89e75ef08145"
   dependencies:
@@ -3978,13 +3978,13 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-markdown-it-anchor@^4.0.0:
+markdown-it-anchor@4.0.0, markdown-it-anchor@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it-anchor/-/markdown-it-anchor-4.0.0.tgz#e87fb5543e01965adf71506c6bf7b0491841b7e3"
   dependencies:
     string "^3.3.3"
 
-markdown-it-link-attributes@^2.0.0:
+markdown-it-link-attributes@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it-link-attributes/-/markdown-it-link-attributes-2.0.0.tgz#24803e7a2331c54cbd1450b8b03dc7f5f89a3c27"
 
@@ -4310,7 +4310,7 @@ node-pre-gyp@^0.6.36:
     tar "^2.2.1"
     tar-pack "^3.4.0"
 
-node-sass@^4.7.2:
+node-sass@4.7.2:
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.7.2.tgz#9366778ba1469eb01438a9e8592f4262bcb6794e"
   dependencies:
@@ -4404,7 +4404,7 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nuxt@^1.0.0-rc11:
+nuxt@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-1.0.0.tgz#ca8e41a068d074e84ac48e3688b16fedc76612ce"
   dependencies:
@@ -4469,7 +4469,7 @@ nuxt@^1.0.0-rc11:
     webpack-hot-middleware "^2.21.0"
     webpack-node-externals "^1.6.0"
 
-nuxtent@^1.2.2:
+nuxtent@1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/nuxtent/-/nuxtent-1.2.2.tgz#3c813f0fcda57f60185399f3267fafe3475c1a81"
   dependencies:
@@ -5369,7 +5369,7 @@ pretty-error@^2.0.2, pretty-error@^2.1.1:
     renderkid "^2.0.1"
     utila "~0.4"
 
-prismjs@^1.9.0:
+prismjs@1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.9.0.tgz#fa3e2d9edc3c3887c1f1f3095d41f1f9b4200f0f"
   optionalDependencies:
@@ -5522,7 +5522,7 @@ pug-walk@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/pug-walk/-/pug-walk-1.1.5.tgz#90e943acbcf7021e6454cf1b32245891cba6f851"
 
-pug@^2.0.0-rc.2:
+pug@2.0.0-rc.4:
   version "2.0.0-rc.4"
   resolved "https://registry.yarnpkg.com/pug/-/pug-2.0.0-rc.4.tgz#b7b08f6599bd5302568042b7436984fb28c80a13"
   dependencies:
@@ -6010,7 +6010,7 @@ sass-graph@^2.2.4:
     scss-tokenizer "^0.2.3"
     yargs "^7.0.0"
 
-sass-loader@^6.0.6:
+sass-loader@6.0.6:
   version "6.0.6"
   resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-6.0.6.tgz#e9d5e6c1f155faa32a4b26d7a9b7107c225e40f9"
   dependencies:
